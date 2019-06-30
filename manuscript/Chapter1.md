@@ -9,10 +9,9 @@ The author tried his best to get the mostly used defenitions of these words used
 
 ## Internationalisation (i18n)
 
-Internationalisation implies that the software is functional with any language input and has easy localisation.
+*Internationalisation implies that the software is functional with any language input and has easy localisation.*
 
 {class: information}
-B> ### Numeronym
 B> Internationalisation is also written as *i18n*, where 18 is the number of letters between i and n. This shortened form is called [numeronym](http://www.i18nguy.com/origini18n.html).
 B> Localisation is often shortend to "l10n", and globalisation is alson known as "g11n".
 
@@ -22,9 +21,9 @@ The next points not required, but usually support the internationalisation proce
   Alloweness for the clients to post and read data in their languages.
 
 - Support of world numeric, date, time and currency formats.
-{icon: etsy}
-B> A good application correctly understands the difference between European "DD/MM/YYY" ("DD-MM-YYYY") and the American "MM/DD/YYY" date formats.
-B> An intenationalised product treats Chilean "1,5" and Australian "1.5" as the same number value "one and a half".
+  {icon: etsy}
+  B> A good application correctly understands the difference between European "DD/MM/YYY" ("DD-MM-YYYY") and the American "MM/DD/YYY" date formats.
+  B> An intenationalised product treats Chilean "1,5" and Australian "1.5" as the same number value "one and a half".
 
 - Easy addition of UI localization resources.
   If a business unit requests tomorrow UI localisation for a new region, the software manufacture in the company should follow a ready and easy process to achieve it.
@@ -32,7 +31,7 @@ B> An intenationalised product treats Chilean "1,5" and Australian "1.5" as the 
 
 ## Localisation (l10n)
 
-Localisation is the process of a product adaptation to meet the language, cultural and other requirements of a specific target market. Localisation is also known as *l10n*, where 10 is the number of letters between l and n.
+*Localisation is the process of a product adaptation to meet the language, cultural and other requirements of a specific target market.*
 
 The next activities are often part of the localisation process:
 
@@ -40,15 +39,16 @@ The next activities are often part of the localisation process:
   Updating UI text to the targeted language, verification of the UI items position and layout correctness.
 
 - Conforming to local standars.
-  In 2016, the EU General Data Protection Regulation (GDPR) was adopted to protect EU citizens data privacy [5]{#5}. In two years later, the Barreiro Hospital in Portugal was fined 400,000 € for leaving data access to former employees [6]{#6}. Many companies comply with GDPR, where one of the point demands a user's advice about private data usage. This led to the famous popup "we use browser cookies to spy on you for good" in most every site today.
-
-  In 2016, the Russian goverment signed the "Russian GDPR", part of the "Yarovaya Law" [7]{#7} [8]{#8}. Microsoft and Facebook immediately moved personal citizens information to their in-state data centers,while LinkedIn was not ready for such changes and the government blocked the site.
-
-  Another example involves the tax support for a new region. The sales tax, as it is known in the USA, varies from state to state. In Germany the VAT rate is the same across the country, and the calculation logic is different ("value-added tax" is another name for "sales tax"). Reaching a new market during localisation assumes that the software is extenable for new rules.
+  {icon: etsy}
+  B> In 2016, the EU General Data Protection Regulation (GDPR) was adopted to protect EU citizens data privacy [5]{#5}. In two years later, the Barreiro Hospital in Portugal was fined 400,000 € for leaving data access to former employees [6]{#6}. Many companies comply with GDPR, where one of the point demands a user's advice about private data usage. This led to the famous popup "we use browser cookies to spy on you for good" in most every site today.
+  {icon: etsy}
+  B> In 2016, the Russian goverment signed the "Russian GDPR", part of the "Yarovaya Law" [7]{#7} [8]{#8}. Microsoft and Facebook immediately moved personal citizens information to their in-state data centers,while LinkedIn was not ready for such changes and the government blocked the site.
+  {icon: etsy}
+  B> Another example involves the tax support for a new region. The sales tax, as it is known in the USA, varies from state to state. In Germany the VAT rate is the same across the country, and the calculation logic is different ("value-added tax" is another name for "sales tax"). Reaching a new market during localisation assumes that the software is extenable for new rules.
 
 ## Globalisation (g11n)
 
-Globalisation, also called *g11n* or *going global*, is the process by which organizations connect with their customers and partners around the world.
+*Globalisation is the process by which organizations connect with their customers and partners around the world.*
 
 Software globalisation often includes:
 
