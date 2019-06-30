@@ -1,21 +1,30 @@
-# Internationalisation vs Localisation vs Globalisation
+# Towards globalisation
 
-The terms internationalisation, localisation and globalisation have no well defined defenitions these days [1]{#1}. The difference in the notion can be found even in one company, for example Microsoft oficial documents and unofficial discussions in the MSDN blogs [2]{#2} [3]{#2}.
+An ultimate goal of any for-profit orgranisation is making money. There are two extremes to achieve it: sell limited luxury goods or services at a very high price, or sell something to mass market in a low price. In the software realm the latter usually is emboded in a strategy. An idea, at first, is examined in a startup form, and the goal is to reach the world market. The final step is also known as "going global" or "globalistation".
 
-The author tried his best to get the mostly used defenitions of these words used today in the sofware development.
+Internationalisation and localisation are the intrinsic steps to reach globalisation.
+The terms have no strict defenitions these days [0]{#1} [1]{#1}. The difference in the notion can be found even in one company, for example Microsoft official documentation [2]{#2} and unofficial MSDN blogs of the employees [3]{#2}.
+
+The author tried his best to get the mostly used defenitions of these words used today in the IT industry.
 
 ## Internationalisation (i18n)
 
-In the software design and development, internationalisation implies the process of enabling localisation easily. Internationalisation is also written as _i18n_, where 18 is the number of letters between i and n.
+Internationalisation implies that the software is functional with any language input and has easy localisation.
 
-Usually it includes the next points (but not requires all of them):
+{class: information}
+B> ### Numeronym
+B> Internationalisation is also written as *i18n*, where 18 is the number of letters between i and n. This shortened form is called [numeronym](http://www.i18nguy.com/origini18n.html).
+B> Localisation is often shortend to "l10n", and globalisation is alson known as "g11n".
+
+The next points not required, but usually support the internationalisation process:
 
 - Global support for almost any human language symbols. Unicode as the text encoding standard.
   Alloweness for the clients to post and read data in their languages.
 
 - Support of world numeric, date, time and currency formats.
-  A good application correctly understands the difference between European "DD/MM/YYY" ("DD-MM-YYYY") and the American "MM/DD/YYY" date formats.
-  An intenationalised product treats Chilean "1,5" and Australian "1.5" as the same number value "one and a half".
+{icon: etsy}
+B> A good application correctly understands the difference between European "DD/MM/YYY" ("DD-MM-YYYY") and the American "MM/DD/YYY" date formats.
+B> An intenationalised product treats Chilean "1,5" and Australian "1.5" as the same number value "one and a half".
 
 - Easy addition of UI localization resources.
   If a business unit requests tomorrow UI localisation for a new region, the software manufacture in the company should follow a ready and easy process to achieve it.
@@ -23,7 +32,7 @@ Usually it includes the next points (but not requires all of them):
 
 ## Localisation (l10n)
 
-Localisation is the process of a product adaptation to meet the language, cultural and other requirements of a specific target market. Localisation is also known as _l10n_, where 10 is the number of letters between l and n.
+Localisation is the process of a product adaptation to meet the language, cultural and other requirements of a specific target market. Localisation is also known as *l10n*, where 10 is the number of letters between l and n.
 
 The next activities are often part of the localisation process:
 
@@ -39,25 +48,25 @@ The next activities are often part of the localisation process:
 
 ## Globalisation (g11n)
 
-Globalisation, also called _g11n_ or _going global_, is the process by which organizations connect with their customers and partners around the world.
+Globalisation, also called *g11n* or *going global*, is the process by which organizations connect with their customers and partners around the world.
 
 Software globalisation often includes:
 
 - Neutral attitude to every presentation aspect.
   No offensive product names or texts. It is not always possible to find a globally neutral product name, the company should be ready to change it for a local market.
-  Neutral visualisations usually have people with different sex, races or ethnic groups.
+  A neutral visualisation usually presents different genders, races or ethnic groups.
   No word or sign that can hurt people feelings or believes, for example, religion topics are avoided.
 
-- Software design, development and customers support at least in every continent.
-  
+- Software design, development and customers support, at least in every continent.
 
 ## Flow
 
-For a software product seeking _globalisation_:
-1. _(internationalisation)_ prepare the plan and platform for localisation, periodically update the plan and the methods if needed
-2. _(localisation)_ - localise the product
-3. _(localisation)_ - localise the product
-4. _(localisation)_ - localise the product
+For a software product the plan to achieve *globalisation* is:
+
+1. *(internationalisation)* prepare the plan and platform for localisation, periodically update the plan and the methods if needed
+2. *(localisation)* - localise the product
+3. *(localisation)* - localise the product
+4. *(localisation)* - localise the product
 5. ...
 
 ```plantuml
@@ -75,6 +84,12 @@ package Globalisation {
 ```
 
 ## References
+
+{id: 0}
+[Translating Vital Information:Localisation, Internationalisation, and Globalisation, Dimitra Anastasiou, Reinhard Schäler, Centre for Next Generation Localisation, 20.10.2009](http://d-anastasiou.com/Publications/Syntheses.pdf)
+
+{id: 0.1}
+[Origin Of The Abbreviation I18n](http://www.i18nguy.com/origini18n.html)
 
 {id: 1}
 [W3C Internationalisation notion](https://www.w3.org/International/questions/qa-i18n)
@@ -95,7 +110,7 @@ package Globalisation {
 [Portuguese Data Protection Authority Imposes 400,000 € Fine on Hospital](https://www.datenschutz-notizen.de/portuguese-data-protection-authority-imposes-400000-e-fine-on-hospital-4821441/)
 
 {id: 7}
-[Yarovaya Law and new telecoms data storage requirements, International Law Office, August 08 2018](http://www.gorodissky.com/upload/articles/files/Yarovaya_Law_and_new_telecoms_data_storage_requirements.pdf)
+[Yarovaya Law and new telecoms data storage requirements, International Law Office, August 08 2018](http://www.gorodissky.com/upload/articles/files/Yarovaya*Law*and*new*telecoms*data*storage*requirements.pdf)
 
 {id: 8}
 [Overview of the Package of Changes into a Number of Laws of the Russian Federation	Designed to	Provide for	Additional Measures to Counteract Terrorism](http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf)
