@@ -1,67 +1,73 @@
 # Towards globalisation
 
-An ultimate goal of any for-profit orgranisation is making money. There are two extremes to achieve it: sell limited luxury goods or services at a very high price, or sell something to mass market in a low price. In the software realm the latter usually is emboded in a strategy. An idea, at first, is examined in a startup form, and the goal is to reach the world market. The final step is also known as "going global" or "globalistation".
+An ultimate goal of any for-profit organisation is making money. There are two extremes to achieve it: sell limited luxury goods or services at a very high price, or sell something to the mass market at a low price. In the software realm, the latter usually is taken as a strategy. At first, a startup is created to test an idea, and then the product evolves to something bigger, reaches more markets and countries until almost any person in the world can use it. In business, the last step is called "going global", or simply "globalisation".
 
-Internationalisation and localisation are the intrinsic steps to reach globalisation.
-The terms have no strict defenitions these days [0]{#1} [1]{#1}. The difference in the notion can be found even in one company, for example Microsoft official documentation [2]{#2} and unofficial MSDN blogs of the employees [3]{#2}.
+To achieve *globalisation* for a software product, a company, at first, should accomplish product *internationalisation* and *localisation*.
+There are no strict definitions for the italicized terms these days [0]{#1} [1]{#1}, and people treat the notions differently ([2]{#2}, [3]{#3}).
 
-The author tried his best to get the mostly used defenitions of these words used today in the IT industry.
+The author has reviewed IT books, articles and many technical forums on this topic to get the actual meanings people tend to put in these words nowadays.
 
 ## Internationalisation (i18n)
 
-*Internationalisation implies that the software is functional with any language input and has easy localisation.*
+*Software internationalisation implies that the product is functional with any language input and has easy localisation.*
 
 {class: information}
-B> Internationalisation is also written as *i18n*, where 18 is the number of letters between i and n. This shortened form is called [numeronym](http://www.i18nguy.com/origini18n.html).
-B> Localisation is often shortend to "l10n", and globalisation is alson known as "g11n".
+B> Internationalisation is also known as *i18n*, where 18 is the number of letters between i and n. This shortened form is called [numeronym](http://www.i18nguy.com/origini18n.html).
+B> Localisation is shortened to "l10n" (l + 10 letters + n), and globalisation is written as "g11n" respectively.
 
-The next points not required, but usually support the internationalisation process:
+Following features support internationalisation:
 
-- Global support for almost any human language symbols. Unicode as the text encoding standard.
-  Alloweness for the clients to post and read data in their languages.
-
-- Support of world numeric, date, time and currency formats.
+- Acceptance of various human language symbols.
   {icon: etsy}
-  B> A good application correctly understands the difference between European "DD/MM/YYY" ("DD-MM-YYYY") and the American "MM/DD/YYY" date formats.
-  B> An intenationalised product treats Chilean "1,5" and Australian "1.5" as the same number value "one and a half".
+  Often UTF-8 is used as a text encoding standard for display and input symbols. Japanese clients should be able to write こんにちは (Hello) to their friends living in America, and the recipients should be able to read the letters without any additional actions.
+
+- Acceptance of world numeric, date, time, and currency formats.
+  {icon: etsy}
+  B> Having default regional settings, Chilean clients should be able to put "1,5" value to the system, and Australian users should see it as "1.5".
 
 - Easy addition of UI localization resources.
-  If a business unit requests tomorrow UI localisation for a new region, the software manufacture in the company should follow a ready and easy process to achieve it.
-  Netflix operates in more than 190 countries and for UI localisation created the product called Hydra [4]{#4}. Java has the ResourceBundle class for adding a new language to a product, similarly Microsoft provides a built-in language resource creation possibility for .NET projects.
+  {icon: etsy}
+  B> Netflix operates in more than 190 countries, and for UI localisation created the product called Hydra [4]{#4}. Java has the ResourceBundle class for new languages. Similarly, Microsoft provides a fast and easy method to add new languages for .NET projects.
 
 ## Localisation (l10n)
 
-*Localisation is the process of a product adaptation to meet the language, cultural and other requirements of a specific target market.*
+*Localisation is the process of a product adaptation to meet the language and cultural requirements of a specific target market.*
 
-The next activities are often part of the localisation process:
+To get localisation done, companies often adopt the following practices:
 
-- Translating an application's resources into localised versions.
-  Updating UI text to the targeted language, verification of the UI items position and layout correctness.
+- Translation of messages and texts to the localised version.
+- Verifying layout correctness for the targeted language.
+  {icon: etsy}
+   Chinese words regularly take less space than German words.
 
-- Conforming to local standars.
+- Conforming to local standards.
   {icon: etsy}
-  B> In 2016, the EU General Data Protection Regulation (GDPR) was adopted to protect EU citizens data privacy [5]{#5}. In two years later, the Barreiro Hospital in Portugal was fined 400,000 € for leaving data access to former employees [6]{#6}. Many companies comply with GDPR, where one of the point demands a user's advice about private data usage. This led to the famous popup "we use browser cookies to spy on you for good" in most every site today.
+  B> In 2016, the EU adopted the General Data Protection Regulation (GDPR)  to protect EU citizens data privacy [5]{#5}. In two years later, the Barreiro Hospital in Portugal was fined 400,000 € for providing data access to many former employees [6]{#6}.
+One more GDPR requirement is to advise users about private data usage that resulted in the annoying pervasive popup "we use browser cookies to watch you for good".
+
   {icon: etsy}
-  B> In 2016, the Russian goverment signed the "Russian GDPR", part of the "Yarovaya Law" [7]{#7} [8]{#8}. Microsoft and Facebook immediately moved personal citizens information to their in-state data centers,while LinkedIn was not ready for such changes and the government blocked the site.
+  B> In 2016, the Russian government signed the "Russian GDPR" as part of the "Yarovaya Law" [7]{#7} [8]{#8}. Microsoft and Facebook immediately moved personal citizens data to their in-state data centres, while LinkedIn was not ready for such changes and the government blocked the site.
+
   {icon: etsy}
-  B> Another example involves the tax support for a new region. The sales tax, as it is known in the USA, varies from state to state. In Germany the VAT rate is the same across the country, and the calculation logic is different ("value-added tax" is another name for "sales tax"). Reaching a new market during localisation assumes that the software is extenable for new rules.
+  B> Another example involves tax support for a new region. The sales tax in the USA varies from state to state. In contrast, in Germany, the value-added tax (VAT) rate is the same for the whole country, and the calculation logic is much different. This only a small example of a distinction between the two countries. It took several years for SAP, a Germany company, to be on the US market among the top enterprise systems.
 
 ## Globalisation (g11n)
 
 *Globalisation is the process by which organizations connect with their customers and partners around the world.*
 
-Software globalisation often includes:
+Software globalisation often realized in:
 
 - Neutral attitude to every presentation aspect.
-  No offensive product names or texts. It is not always possible to find a globally neutral product name, the company should be ready to change it for a local market.
-  A neutral visualisation usually presents different genders, races or ethnic groups.
-  No word or sign that can hurt people feelings or believes, for example, religion topics are avoided.
+  {icon: etsy}
+  B> It is not always possible to foresee all meanings of the word in various languages. Mitsubishi had to rename Pajero vehicle line to Montero for Spanish version because of the offensive sense. Likewise, Hyundai renamed the Kona model to Kauai on the Portuguese market.
 
-- Software design, development and customers support, at least in every continent.
+- Software design, development, and customers support, at least in every continent.
+  {icon: etsy}
+  Google has over offices in more than 50 countries. Microsft offices are in more than ([Microsoft office locations around the world](https://www.microsoft.com/en-us/worldwide.aspx))
 
 ## Flow
 
-For a software product the plan to achieve *globalisation* is:
+For a software product, the plan to achieve *globalisation* is:
 
 1. *(internationalisation)* prepare the plan and platform for localisation, periodically update the plan and the methods if needed
 2. *(localisation)* - localise the product
@@ -113,4 +119,4 @@ package Globalisation {
 [Yarovaya Law and new telecoms data storage requirements, International Law Office, August 08 2018](http://www.gorodissky.com/upload/articles/files/Yarovaya*Law*and*new*telecoms*data*storage*requirements.pdf)
 
 {id: 8}
-[Overview of the Package of Changes into a Number of Laws of the Russian Federation	Designed to	Provide for	Additional Measures to Counteract Terrorism](http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf)
+[Overview of the Package of Changes into a Number of Laws of the Russian Federation    Designed to    Provide for    Additional Measures to Counteract Terrorism](http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf)
