@@ -3,7 +3,7 @@
 An ultimate goal of any for-profit organisation is making money. There are two extremes to achieve it: sell limited luxury goods or services at a very high price, or sell something to the mass market at a low price. In the software realm, the latter usually is taken as a strategy. At first, a startup is created to test an idea, and then the product evolves to something bigger, reaches more markets and countries until almost any person in the world can use it. In business, the last step is called "going global", or simply "globalisation".
 
 To achieve *globalisation* for a software product, a company, at first, should accomplish product *internationalisation* and *localisation*.
-There are no strict definitions for the italicized terms these days, and people treat the notions differently ([Translating Vital Information:Localisation, Internationalisation, and Globalisation, Dimitra Anastasiou, Reinhard Schäler, Centre for Next Generation Localisation, 2009-10-20](http://d-anastasiou.com/Publications/Syntheses.pdf), [W3C Internationalisation](https://www.w3.org/International/questions/qa-i18n), [Internationalizaton vs. localizability, Michael S. Kaplan, MSDN blog archive, 2005-09-09](http://archives.miloush.net/michkap/archive/2005/09/09/462862.html), [Globalizing and localizing .NET applications, .NET Guide, 2019-07-24](https://docs.microsoft.com/en-us/dotnet/standard/globalization-localization/index)).
+There are no strict definitions for the italicized terms these days, and people treat the notions differently ([Translating Vital Information:Localisation, Internationalisation, and Globalisation, Dimitra Anastasiou, Reinhard Schäler, Centre for Next Generation Localisation, 2009-10-20](http://d-anastasiou.com/Publications/Syntheses.pdf); [W3C Internationalisation](https://www.w3.org/International/questions/qa-i18n); [Internationalizaton vs. localizability, Michael S. Kaplan, MSDN blog archive, 2005-09-09](http://archives.miloush.net/michkap/archive/2005/09/09/462862.html); [Globalizing and localizing .NET applications, .NET Guide, 2019-07-24](https://docs.microsoft.com/en-us/dotnet/standard/globalization-localization/index)).
 
 The author has reviewed numerous technical IT resources on this topic to get the actual meanings people tend to put in these words.
 
@@ -13,13 +13,13 @@ The author has reviewed numerous technical IT resources on this topic to get the
 
 {class: information}
 B> Internationalisation is also known as *i18n*, where 18 is the number of letters between i and n. This shortened form is called *numeronym* ([Origin Of The Abbreviation I18n](http://www.i18nguy.com/origini18n.html)).
-B> Localisation is shortened to "l10n" (l + 10 letters + n), and globalisation is written as "g11n" respectively. Try numeronym out on your's or your friend's long last name.
+B> Localisation is shortened to "l10n" (l + 10 letters + n), and globalisation is written as "g11n" respectively. Try it out on your or a friend's long last name.
 
 Internationalisation is often reached by the following means:
 
 - Support of various human language symbols.
   {icon: etsy}
-  Regularly UTF-8 is used as a text encoding standard for display and input symbols. A Japanese woman should be able to write こんにちは (Hello) to her friend living in America, and the recipient should be able to read the letters without any additional action.
+  Regularly UTF-8 is used as a text encoding standard for display and input symbols. A Japanese woman should be able to write こんにちは (Hello) to her friend living in America, and the recipient should be able to read the letter without any additional action.
 
 - Acceptance of world numeric, date, time, and currency formats.
   {icon: etsy}
@@ -46,7 +46,7 @@ To get localisation done, companies often adopt the following practices:
   One more GDPR requirement is to advise users about private data usage that resulted in the annoying pervasive popup "we use browser cookies to watch you for the good".
 
   {icon: etsy}
-  B> In 2016, the Russian government signed the "Russian GDPR" as part of the "Yarovaya Law"([Yarovaya Law and new telecoms data storage requirements, International Law Office, August 08 2018](http://www.gorodissky.com/upload/articles/files/Yarovaya*Law*and*new*telecoms*data*storage*requirements.pdf), [Overview of the Package of Changes into a Number of Laws of the Russian Federation Designed to Provide for Additional Measures to Counteract Terrorism](http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf)). Microsoft and Facebook immediately moved personal citizens data to their in-state data centres, while LinkedIn was not ready for such changes and the government blocked the site.
+  B> In 2016, the Russian government signed the "Russian GDPR" as part of the "Yarovaya Law"([Yarovaya Law and new telecoms data storage requirements, International Law Office, August 08 2018](http://www.gorodissky.com/upload/articles/files/Yarovaya*Law*and*new*telecoms*data*storage*requirements.pdf); [Overview of the Package of Changes into a Number of Laws of the Russian Federation Designed to Provide for Additional Measures to Counteract Terrorism](http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf)). Microsoft and Facebook immediately moved personal citizens data to their in-state data centres, while LinkedIn was not ready for such changes and the government blocked the site.
 
   {icon: etsy}
   B> Another example involves tax support for a new region. The sales tax in the USA varies from state to state. In contrast, in Germany, the value-added tax (VAT) rate is the same for the whole country, and the calculation logic is much different. This only a small example of a distinction between the two countries. It took several years for SAP, a Germany company, to be on the US market among the top enterprise systems.
@@ -63,7 +63,7 @@ Software globalisation often realized in:
 
 - Software design, development, and customers support, at least in every continent.
   {icon: etsy}
-  Google has offices in more than 50 countries ([Google office locations](https://careers.google.com/locations/)). Microsoft offices are presented in almost every country ([Microsoft office locations around the world](https://www.microsoft.com/en-us/worldwide.aspx)). Every big global player has a sales and a support team in every large city ([Apple find locations](https://locate.apple.com/), [SAP Worldwide directory](https://www.sap.com/corporate/en/company/office-locations.html), [Amazon Locations](https://www.amazon.jobs/en-gb/locations/)). 
+  Google has offices in more than 50 countries ([Google office locations](https://careers.google.com/locations/)). Microsoft offices are presented in almost every country ([Microsoft office locations around the world](https://www.microsoft.com/en-us/worldwide.aspx)). Every big global player has a sales and a support team in every large city ([Apple find locations](https://locate.apple.com/); [SAP Worldwide directory](https://www.sap.com/corporate/en/company/office-locations.html); [Amazon Locations](https://www.amazon.jobs/en-gb/locations/)). 
 
 ## Flow
 
