@@ -1,0 +1,30 @@
+\documentclass[12pt,a4paper]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{graphicx} % Needed to insert images into the document
+\usepackage[sorting=none]{biblatex}\addbibresource{references.bib} %citiation 
+\usepackage{xurl} % correct url multi-line links
+\usepackage{tcolorbox} % round boxes
+
+\usepackage{marvosym} % specific symbols, e.g. euro sign
+
+\usepackage{longtable} % table on multiple pages
+\usepackage{caption} % image and table captions
+
+\graphicspath{{./images/}}
+
+\title{Software Internationalisation} 
+\author{Artur Ampilogov} 
+\date{2019}
+
+\begin{document}
+
+\tableofcontents 
+
+\include{chapter1}
+\include{chapter2}
+
+\printbibliography
+
+\end{document}

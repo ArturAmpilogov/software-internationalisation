@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Globalisation}{3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Towards globalisation}{3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Internationalisation (i18n)}{3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Localisation (l10n)}{4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Globalisation (g11n)}{5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Text encoding}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}A brief history of character encoding}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Bi-literal cipher of Francis Bacon}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Gauss and Weber's code}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Morse and Gerke's code}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Baudot code}{9}% 

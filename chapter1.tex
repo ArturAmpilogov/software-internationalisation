@@ -1,0 +1,92 @@
+
+\chapter{Globalisation}
+
+\section{Towards globalisation}
+
+An ultimate goal of any for-profit organisation is making money. 
+There are two extremes to achieve it: sell limited luxury goods or services at a very high price, or sell something to the mass market at a low price. 
+In the software realm, the latter usually is taken as a strategy. 
+At first, a startup is created to test an idea, and then the product evolves to something bigger, reaches more markets and countries until almost any person in the world can use it. 
+In business, the last step is called "going global", or simply "globalisation".
+
+
+To achieve \textit{globalisation} for a software product, a company, at first, should accomplish product \textit{internationalisation} and \textit{localisation}.
+There are no strict definitions for the italicized terms these days, and people treat the notions differently (\cite{anastasiou2010translating} \cite{w3cqainternationalisation} \cite{i18nvsg10nkaplan} \cite{dotnetglobalisation}). In the next sections common defitions are provided for these terms. 
+
+
+
+
+\section{Internationalisation (i18n)}
+
+\textit{Software internationalisation implies that the product is functional with any language input and has easy localisation.}
+
+\begin{tcolorbox}
+    Internationalisation is also known as \textit{i18n}, where 18 is the number of letters between i and n. This shortened form is called \textit{numeronym} \cite{i18norigin}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+    Localisation is shortened to \textit{l10n} (l + 10 letters + n), and globalisation is written as \textit{g11n} respectively.
+\end{tcolorbox}
+
+Internationalisation is often reached by the following means:
+\begin{itemize}
+\item Support of various human language symbols.
+  
+Regularly UTF-8 is used as a text encoding standard for display and input symbols. A Japanese person should be able to write \begin{CJK}{UTF8}{min}こんにちは\end{CJK} (Hello) to a friend living in America, and the recipient should be able to read the letter without any additional action.
+
+\item Acceptance of world numeric, date, time, and currency formats.
+  
+Having default regional settings, Chilean customers should be able to put "1,5" value to the system, while Australian users should see it as "1.5" automatically.
+
+\item Easy addition of UI localization resources.
+  
+Netflix operates in more than 190 countries, and for UI localisation created the product called Hydra \cite{hydranetflix}. Java has the ResourceBundle class for new languages. Similarly, Microsoft provides a fast and easy method to add new languages for .NET projects.
+\end{itemize}
+
+
+
+
+\section{Localisation (l10n)}
+
+\textit{Localisation is the process of a product adaptation to meet the language and cultural requirements of a specific target market.}
+
+To get localisation done, companies often adopt the following practices:
+\begin{itemize}
+  \item Translation of messages and texts to the localised version.
+  \item Verifaction of the layout correctness for the targeted language.
+  
+  Chinese words regularly take less space than German words and the UI interface should be flexible to support both languages.
+
+  \item Conforming to local standards.
+  
+  In 2016, the EU adopted the General Data Protection Regulation (GDPR) to protect EU citizens data privacy \cite{gdpr}. In two years later, the Barreiro Hospital in Portugal was fined 400,000 \EUR{} for providing data access to many former employees \cite{hospitalfinenews}.
+  One more GDPR requirement is to advise users about private data usage that resulted in the annoying pervasive popup "we use browser cookies to watch you for the good".
+
+  
+  In the same year, the Russian government signed the "Russian GDPR" as part of the "Yarovaya Law" \cite{yarovayalaw} \cite{yarovayaicnl}. Microsoft and Facebook moved personal citizens data to their in-state data centres, while LinkedIn was not ready for such changes and the government blocked the web resource.
+
+  Another example involves tax support for a new region. The sales tax in the USA varies from state to state. In contrast, in Germany, the value-added tax (VAT) rate is the same for the whole country, and the calculation logic is much different. This is only a small example of a distinction between the two countries. It took several years for SAP, a Germany company, to adopt the software for the the US market and be among the top enterprise systems.
+\end{itemize}
+
+
+\section{Globalisation (g11n)}
+
+\textit{Globalisation is the process by which organizations connect with their customers and partners around the world.}
+
+
+Software globalisation often realized in:
+\begin{itemize}
+\item Neutral attitude to every presentation aspect.
+  
+It is not always possible to foresee all meanings of the word in various languages. Mitsubishi had to rename Pajero vehicle line to Montero for Spanish version because of the offensive sense. Likewise, Hyundai renamed the Kona model to Kauai on the Portuguese market.
+
+\item Software design, development, and customers support are being presented at least in every continent.
+  
+Google has offices in more than 50 countries \cite{googleoffices}. Microsoft offices are presented in almost every country \cite{microsoftoffices}. Every global player has a sales and a support team in every large city (see \cite[Apple offices]{appleoffices}, \cite[SAP offices]{sapoffices}, \cite[Amazon offices]{amazonoffices}).
+\end{itemize}
+
+In a simple form, at the internationalisation step, a plan and a platfrom is prepared for localisation, periodically the plan and the methods are updated, the product is localised and reaches globalisation:
+\begin{tcolorbox}
+    \centering
+    \textbf{Internationalisation} $\longrightarrow$ \textbf{Localisation} $\longrightarrow$ \textbf{Globalisation}
+\end{tcolorbox}

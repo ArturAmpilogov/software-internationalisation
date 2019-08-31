@@ -1,0 +1,493 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{anastasiou2010translating}{article}{}
+      \name{author}{2}{}{%
+        {{hash=60b29428b375629f9822419897399800}{%
+           family={Anastasiou},
+           familyi={A\bibinitperiod},
+           given={Dimitra},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d074273872a4035783c890f4015de09d}{%
+           family={Sch{ä}ler},
+           familyi={S\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \strng{fullhash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \strng{bibnamehash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \strng{authorbibnamehash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \strng{authornamehash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \strng{authorfullhash}{261e0665245ab4e18ea28d36bb9cc3d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Syntheses Journal}
+      \field{title}{Translating vital information: Localisation, internationalisation, and globalisation}
+      \field{volume}{3}
+      \field{year}{2010}
+      \field{pages}{11\bibrangedash 25}
+      \range{pages}{15}
+    \endentry
+    \entry{w3cqainternationalisation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=63ab06146a271afb27bb923c9fe277b9}{%
+           family={Richard\bibnamedelima Ishida},
+           familyi={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Susan\bibnamedelimb K.\bibnamedelimi Miller},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{63ab06146a271afb27bb923c9fe277b9}
+      \strng{fullhash}{63ab06146a271afb27bb923c9fe277b9}
+      \strng{bibnamehash}{63ab06146a271afb27bb923c9fe277b9}
+      \strng{authorbibnamehash}{63ab06146a271afb27bb923c9fe277b9}
+      \strng{authornamehash}{63ab06146a271afb27bb923c9fe277b9}
+      \strng{authorfullhash}{63ab06146a271afb27bb923c9fe277b9}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{W3C Internationalisation Q\&A}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/International/questions/qa-i18n
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/International/questions/qa-i18n
+      \endverb
+    \endentry
+    \entry{i18nvsg10nkaplan}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b03dacef9b0b862a985be69f74a09c73}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b03dacef9b0b862a985be69f74a09c73}
+      \strng{fullhash}{b03dacef9b0b862a985be69f74a09c73}
+      \strng{bibnamehash}{b03dacef9b0b862a985be69f74a09c73}
+      \strng{authorbibnamehash}{b03dacef9b0b862a985be69f74a09c73}
+      \strng{authornamehash}{b03dacef9b0b862a985be69f74a09c73}
+      \strng{authorfullhash}{b03dacef9b0b862a985be69f74a09c73}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Internationalizaton vs. localizability, MSDN blog archive}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://archives.miloush.net/michkap/archive/2005/09/09/462862.html
+      \endverb
+      \verb{url}
+      \verb http://archives.miloush.net/michkap/archive/2005/09/09/462862.html
+      \endverb
+    \endentry
+    \entry{dotnetglobalisation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Globalizing and localizing .NET applications, .NET Guide}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/dotnet/standard/globalization-localization/index
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/dotnet/standard/globalization-localization/index
+      \endverb
+    \endentry
+    \entry{i18norigin}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e33894f1bc4ac2a319aa9adfad60ea0}{%
+           family={Texin},
+           familyi={T\bibinitperiod},
+           given={Tex},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \strng{fullhash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \strng{bibnamehash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \strng{authorbibnamehash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \strng{authornamehash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \strng{authorfullhash}{0e33894f1bc4ac2a319aa9adfad60ea0}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Origin Of The Abbreviation I18n}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.i18nguy.com/origini18n.html
+      \endverb
+      \verb{url}
+      \verb http://www.i18nguy.com/origini18n.html
+      \endverb
+    \endentry
+    \entry{gdpr}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labeltitlesource}{title}
+      \field{title}{GDPR}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eugdpr.org
+      \endverb
+      \verb{url}
+      \verb https://eugdpr.org
+      \endverb
+    \endentry
+    \entry{hospitalfinenews}{online}{}
+      \name{author}{1}{}{%
+        {{hash=91aef9ba0f1e55041340b4b0c9884b0e}{%
+           family={notizen},
+           familyi={n\bibinitperiod},
+           given={Datenschutz},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \strng{fullhash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \strng{bibnamehash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \strng{authorbibnamehash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \strng{authornamehash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \strng{authorfullhash}{91aef9ba0f1e55041340b4b0c9884b0e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Portuguese Data Protection Authority Imposes 400,000 Eur Fine on Hospital}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.datenschutz-notizen.de/portuguese-data-protection-authority-imposes-400000-e-fine-on-hospital-4821441/
+      \endverb
+      \verb{url}
+      \verb https://www.datenschutz-notizen.de/portuguese-data-protection-authority-imposes-400000-e-fine-on-hospital-4821441/
+      \endverb
+    \endentry
+    \entry{yarovayalaw}{online}{}
+      \name{author}{1}{}{%
+        {{hash=33924c60378558f54e5bf80e02fa30d3}{%
+           family={Office},
+           familyi={O\bibinitperiod},
+           given={International\bibnamedelima Law},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{33924c60378558f54e5bf80e02fa30d3}
+      \strng{fullhash}{33924c60378558f54e5bf80e02fa30d3}
+      \strng{bibnamehash}{33924c60378558f54e5bf80e02fa30d3}
+      \strng{authorbibnamehash}{33924c60378558f54e5bf80e02fa30d3}
+      \strng{authornamehash}{33924c60378558f54e5bf80e02fa30d3}
+      \strng{authorfullhash}{33924c60378558f54e5bf80e02fa30d3}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Yarovaya Law and new telecoms data storage requirements}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.gorodissky.com/upload/articles/files/Yarovaya_Law_and_new_telecoms_data_storage_requirements.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.gorodissky.com/upload/articles/files/Yarovaya_Law_and_new_telecoms_data_storage_requirements.pdf
+      \endverb
+    \endentry
+    \entry{yarovayaicnl}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2530df212e04237d90c99a81872e01cb}{%
+           family={ICNL},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2530df212e04237d90c99a81872e01cb}
+      \strng{fullhash}{2530df212e04237d90c99a81872e01cb}
+      \strng{bibnamehash}{2530df212e04237d90c99a81872e01cb}
+      \strng{authorbibnamehash}{2530df212e04237d90c99a81872e01cb}
+      \strng{authornamehash}{2530df212e04237d90c99a81872e01cb}
+      \strng{authorfullhash}{2530df212e04237d90c99a81872e01cb}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Overview of the Package of Changes into a Number of Laws of the Russian Federation Designed to Provide for Additional Measures to Counteract Terrorism}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.icnl.org/research/library/files/Russia/Yarovaya.pdf
+      \endverb
+    \endentry
+    \entry{googleoffices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google office locations}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://careers.google.com/locations/
+      \endverb
+      \verb{url}
+      \verb https://careers.google.com/locations/
+      \endverb
+    \endentry
+    \entry{microsoftoffices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microsoft office locations around the world}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-us/worldwide.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/worldwide.aspx
+      \endverb
+    \endentry
+    \entry{appleoffices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Apple find locations}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://locate.apple.com/
+      \endverb
+      \verb{url}
+      \verb https://locate.apple.com/
+      \endverb
+    \endentry
+    \entry{sapoffices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=999bc6b18351bbe817d26f559ba408ae}{%
+           family={SAP},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{999bc6b18351bbe817d26f559ba408ae}
+      \strng{fullhash}{999bc6b18351bbe817d26f559ba408ae}
+      \strng{bibnamehash}{999bc6b18351bbe817d26f559ba408ae}
+      \strng{authorbibnamehash}{999bc6b18351bbe817d26f559ba408ae}
+      \strng{authornamehash}{999bc6b18351bbe817d26f559ba408ae}
+      \strng{authorfullhash}{999bc6b18351bbe817d26f559ba408ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SAP Worldwide directory}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sap.com/corporate/en/company/office-locations.html
+      \endverb
+      \verb{url}
+      \verb https://www.sap.com/corporate/en/company/office-locations.html
+      \endverb
+    \endentry
+    \entry{amazonoffices}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={Amazon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon Locations}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.jobs/en-gb/locations/
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.jobs/en-gb/locations/
+      \endverb
+    \endentry
+    \entry{fbakoncipher}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \strng{fullhash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \strng{bibnamehash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \strng{authorbibnamehash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \strng{authornamehash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \strng{authorfullhash}{c9b10fcc6ec1e831c3ce7c1e2cfc9b0b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Of the Proficience and Advancement of Learning, Divine and Human}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{1605}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://archive.org/details/advancementofl00baco/page/256
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/advancementofl00baco/page/256
+      \endverb
+    \endentry
+    \entry{fiedmanbaconcipher}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b98057caf1253d4becb226e92de6d143}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={W.F.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b98057caf1253d4becb226e92de6d143}
+      \strng{fullhash}{b98057caf1253d4becb226e92de6d143}
+      \strng{bibnamehash}{b98057caf1253d4becb226e92de6d143}
+      \strng{authorbibnamehash}{b98057caf1253d4becb226e92de6d143}
+      \strng{authornamehash}{b98057caf1253d4becb226e92de6d143}
+      \strng{authorfullhash}{b98057caf1253d4becb226e92de6d143}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cipher Baconis Gallup}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{1916}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://digitalcollections.nypl.org/collections/bacon-cipher-collection
+      \endverb
+      \verb{url}
+      \verb https://digitalcollections.nypl.org/collections/bacon-cipher-collection
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

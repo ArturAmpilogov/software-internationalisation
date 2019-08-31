@@ -73,13 +73,8 @@ As an example, consider encoding of the famous emergency signal SOS that was int
 Émile Baudot, a French telegraph engineer, invented multiplex system for theleraph with the new 5-bit code for Roman alphabet, punctuation and control signals and  The code was used in telegraph prior the ASCCI
 
 1870 
+
+
  The Unicode project started in 1987 with the intention of supporting all living languages
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-![Marmalade and Tangerine](images/marm-and-tangie.jpg)
